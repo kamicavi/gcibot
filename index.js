@@ -11,5 +11,5 @@ bot.on('ready', () => {
 
 bot.on('guildMemberAdd', member => {
   console.log("member joined")  
-  member.guild.channels.cache.get('720438682355499011').send(`${member} gci ded`); 
+  member.guild.channels.cache.get(CHANNEL).send(`${member} gci ded`); 
 });
